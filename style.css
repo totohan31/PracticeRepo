@@ -1,0 +1,68 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    border: 1px solid red;
+}
+header > a:nth-of-type(1) {
+    color: #4754EB;
+    text-decoration: none;
+}
+
+header ul {
+    border: 1px solid blue;
+    list-style: none;
+}
+
+header ul a {
+    text-decoration: none;
+    color: #808080;
+}
+
+header button {
+    border: none;
+    background-color: transparent;
+}
+
+header button:nth-of-type(1) {
+    color:#4754EB;
+}
+header span, header button:nth-of-type(2) {
+    color: #808080;
+}
+
+header > a:last-of-type {
+    color: #fff;
+    background-color: #4754EB;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.promo {
+    border: 1px solid red;
+}
+
+.promo h1 {
+    font-size: 56px;
+    line-height: 70%;
+}
+
+.promo .desk {
+    border: 1px solid blue;
+}
+
+.promo form {
+    border: 1px solid green;
+}
+
+.promo input[type="email"] {
+    border: none;
+    background-color: #fff;
+    border-radius: 16px;
+}
