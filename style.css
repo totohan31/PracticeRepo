@@ -46,11 +46,13 @@ header > a:last-of-type {
 
 .promo {
     border: 1px solid red;
+    /* background-image: linear-gradient(to top right, violet, rgba(0, 0, 255, 0.212), white 40%); */
+    background-color: #ccc;
 }
 
 .promo h1 {
     font-size: 56px;
-    line-height: 70%;
+    line-height: 70px;
 }
 
 .promo .desk {
@@ -65,4 +67,30 @@ header > a:last-of-type {
     border: none;
     background-color: #fff;
     border-radius: 16px;
+}
+.promo input[type="submit"] {
+    background-color: #fff;
+    border: none;
+    border-radius: 16px;
+    color: #4754EB;
+}
+.promo .desk p {
+    font-size: 12px;
+    color: #595959;
+    line-height: 16px;
+
+}
+
+.promo .desc p a {
+    color: #4754EB;
+    text-decoration: none;
+
+}
+
+.promo .desc > a:last-of-type {
+    text-decoration: none;
+    color: #fff;
+}
+.promo .desc > a:last-of-type img {
+    vertical-align: middle;
 }
